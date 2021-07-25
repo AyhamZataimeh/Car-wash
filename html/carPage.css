@@ -1,0 +1,111 @@
+body{
+  background-image: url("wall.jpeg");
+}
+nav{
+  background: #059907;
+
+}
+a{
+  color: white;
+  font-size: 30px;
+}
+a:hover{
+  color:white;
+  text-decoration:none;
+
+}
+.img{
+  display: inline-block;
+  position: absolute;
+}
+
+img{
+  border-radius: 50%;
+  transition: 1s ease;
+}
+img:hover{
+  width: 280px;
+  height: 240px;
+
+}
+.price{
+  border: 1px solid #059907;
+  height: 20px;
+  border-radius: 20px;
+  transition: .4s ease;
+
+}
+.form-group{
+  margin-left: 1px;
+}
+#button{
+  color:#059907;
+  border: 1px solid #059907;
+  border-radius: 20px;
+  background: white;
+}
+.price:hover{
+  height: 40px;
+}
+
+
+.child1{
+  color: white;
+  border: 1px solid #059907;
+  border-radius: 20px;
+  background: #059907;
+  box-shadow: 10px 30px 30px #059907;
+  width: 300px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-left: 500px;
+  display: inline-block;
+
+
+
+}
+
+
+
+#yes{
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+.no{
+  margin-left: 10px;
+}
+
+
+
+#submit{
+  border-radius: 20px;
+  background:white;
+  color: #059907;
+  font-size: 20px;
+  margin-left: 190px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#washonly{
+  margin-left: 6px;
+}
+#dryclean{
+  margin-left: 10px;
+}
+
+#engine{
+  margin-left: 29px;
+}
+#select{
+  color: #059907;
+}
+#location{
+  border-radius: 20px;
+}
+#phone{
+  border-radius: 20px;
+}
+#id{
+  border-radius: 20px;
+}

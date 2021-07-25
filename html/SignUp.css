@@ -1,0 +1,92 @@
+body{
+  background-image: url("wall.jpeg");
+}
+.img{
+  display: inline-block;
+  position: absolute;
+}
+#logo{
+  margin-top:80px;
+  margin-left:10px;
+  border-radius: 50%;
+  transition: 1s ease;
+
+
+}
+#logo:hover{
+  width:280px;
+  height: 240px;
+}
+
+
+.contact{
+  border: 1px solid #059907;
+  border-radius: 20px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 200px;
+  background: #059907;
+  color: white;
+  padding: 20px;
+  display: inline-block;
+
+
+
+}
+nav{
+
+  background: #059907;
+
+}
+nav a{
+
+  color: white;
+  font-size: 30px;
+}
+nav a:hover{
+  color: white;
+  text-decoration: none;
+}
+.form{
+  margin-left: 20px;
+}
+
+#Email{
+  border: 1px solid #059907 ;
+  margin-left: 61px;
+  border-radius: 20px;
+  width: 230px;
+}
+#password{
+  border: 1px solid #059907 ;
+  margin-left: 34px;
+  border-radius: 20px;
+
+}
+#first{
+  border: 1px solid #059907 ;
+
+  margin-left: 29px;
+  border-radius: 20px;
+
+}
+#last{
+  border: 1px solid #059907 ;
+  margin-left: 29px;
+  border-radius: 20px;
+}
+#select{
+  color:#059907;
+  width: 150px;
+}
+#answer{
+  margin-top: 50px;
+
+}
+#submit{
+  margin-left: 250px;
+  color:#059907 ;
+  background:white;
+  border:1px solid #059907;
+  border-radius: 20px;
+}

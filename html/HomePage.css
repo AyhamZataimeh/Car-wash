@@ -1,0 +1,134 @@
+body{
+  background-image: url("wall.jpeg") ;
+}
+#logo{
+  border-radius: 50%;
+  margin-left: 100px;
+  animation: image 1s  linear both;
+
+
+
+
+
+}
+
+@keyframes image {
+from {width: 150px; height: 100px; opacity:0.1 }
+to {width: 280px; height: 240px; opacity: 1}
+}
+
+
+
+
+.img{
+  margin-left: 250px;
+}
+ #image {
+  padding-top: 200px;
+  margin-left: 100px;
+  border: 1px solid green;
+  border-top: 50px solid #059907;
+  width: 300px;
+  height: 300px;
+  color: green;
+  font-style: italic;
+  padding-left: 90px;
+  display: inline-block;
+
+}
+.form {
+  color: white;
+  background: green;
+  margin-top: 0px;
+  margin-left: 200px;
+  border: 3px solid white;
+  border-radius: 30px;
+  width: 700px;
+  padding-top: 0px;
+  padding-left: 200px;
+  display: inline-block;
+}
+.form #password{
+  border-radius: 20px;
+  border:1px solid #059907;
+    width:  250px;
+
+}
+.form #email{
+  margin-top: 100px;
+  border-radius: 20px;
+    border:1px solid #059907;
+    width:  250px;
+      margin-left: 27px;
+}
+#e{
+  margin-top: 100px;
+
+
+}
+
+
+a{
+  color:white;
+  font-style: italic;
+}
+a:hover{
+  color: white;
+}
+
+
+#submit{
+  background: white;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  color: #059907;
+  border: 1px solid;
+
+  border-radius: 20px;
+  height: 50px;
+  width: 70px;
+
+}
+nav{
+  background: #059907;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #059907;
+  min-width: 160px;
+  width: 100
+  box-shadow: 0px 8px 16px 0px;
+  padding: 12px 16px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+span
+{
+  color: white
+}
+.facebook {
+
+  display: inline-block;
+}
+.fimg{
+
+  display: inline-block;
+  padding-left: 35px;
+}
+
+.instagram{
+  display: inline-block;
+}
+.nimg{
+  margin: 20px;
+  display: inline-block;
+}

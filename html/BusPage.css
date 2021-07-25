@@ -1,0 +1,125 @@
+body{
+  background-image: url("wall.jpeg");
+}
+nav{
+  background: #059907;
+
+}
+nav a{
+  color: white;
+  font-size: 30px;
+}
+nav a:hover{
+  text-decoration: none;
+  color: white;
+
+}
+#logo{
+  border-radius: 50%;
+  margin:;
+
+}
+.img{
+  display: inline-block;
+  position: absolute;
+
+}
+img{
+  border-radius: 50%;
+  transition: 1s ease;
+}
+img:hover{
+
+  width: 280px;
+  height: 240px;
+}
+.child1{
+  border: 1px solid #059907;
+  background: #059907;
+  border-radius: 20px;
+  margin-left:500px;
+  margin-top: 10px;
+  padding-left:0px;
+  color: white;
+  width: 300px;
+  box-shadow: 10px 30px 30px #059907;
+
+  /* height: 570px; */
+  font-weight: 900;
+
+  /* padding-left: 20px; */
+}
+#select{
+  width: 100%;
+  color: #059907;
+}
+#washonly{
+  margin-left: 17px;
+}
+#dryclean{
+  margin-left: 22px;
+
+
+}
+#location{
+  border-radius: 30px;
+}
+#phone{
+  border-radius: 30px;
+
+
+}
+.form-group{
+  margin-left: 1px;
+}
+#submit{
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: 200px;
+  background: white;
+  color: #059907;
+}
+#id{
+  border-radius: 30px;
+}
+.child11{
+  border: 1px solid #059907;
+  background:    #059907;
+  height: 40px;
+  border-radius: 20px;
+  width: 299px;
+
+  transition: .4s ease;
+
+
+
+
+
+}
+
+#button{
+  border-radius: 20px;
+
+  background: white;
+  color: #059907;
+
+
+}
+.child11:hover{
+  height: 70px;
+
+}
+#p{
+  font-weight: bold;
+}
+#yes{
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+.no{
+  margin-left: 10px;
+}
+#lo{
+  visibility: hidden;
+}
